@@ -35,11 +35,7 @@
     git clone https://github.com/VitaliySkrypnyk/OOP-KP-.git
     cd online-learning-platform
     ```
-
-
-
-
-
+    
 2. **Міграція бази даних**
     
       ```powershell
@@ -62,12 +58,12 @@
 
 Проект включає набір тестів для перевірки основної функціональності. Для запуску тестів:
 
-
-
-
-## Ліцензія
-
-Цей проект ліцензований під MIT License - дивіться файл [LICENSE](LICENSE) для подробиць.
+1. **Встановлення NUnit та NUnit3TestAdapter**
+    
+      ```powershell
+      Install-Package NUnit
+      Install-Package NUnit3TestAdapter
+      ```
 
 ## Вітаю та дякую за увагу!
 
