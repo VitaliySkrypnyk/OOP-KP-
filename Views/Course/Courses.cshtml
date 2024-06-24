@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Courses";
+}
+
+<div class="container">
+    <h1>Courses</h1>
+    <a href="/Course/AddCourse" class="add-course-button">Add Course</a>
+    <ul>
+        @* Список курсів *@
+        <li>Course 1 <a href="/Course/EditCourse/1" class="add-course-button">Edit</a> <a href="/Course/DeleteCourse/1" class="delete-course-button">Delete</a></li>
+        <li>Course 2 <a href="/Course/EditCourse/2" class="add-course-button">Edit</a> <a href="/Course/DeleteCourse/2" class="delete-course-button">Delete</a></li>
+    </ul>
+</div>

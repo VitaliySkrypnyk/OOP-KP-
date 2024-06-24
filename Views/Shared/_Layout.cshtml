@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"] - My Application</title>
+    <link rel="stylesheet" type="text/css" href="~/css/style.css">
+</head>
+<body>
+    <header>
+        @await Html.PartialAsync("_Header")
+    </header>
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+    <footer>
+        @await Html.PartialAsync("_Footer")
+    </footer>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
